@@ -7,6 +7,9 @@
     <title>Creating a simple "Guessing Game"</title>
 </head>
 <body>
+    <?php
+        session_start();
+    ?>
     <h1>Guessing Game</h1>
     <p><a href="guessinggame.php">Start the game</a></p>
 </body>
